@@ -19,6 +19,6 @@ yp = model.predict(x)
 
 print(r2_score(x,yp))
 plt.scatter(x,y)
-plt.title("temperature vs no")
+plt.title("Temperature vs no")
 plt.plot(x,yp, color='red')
 plt.show()
