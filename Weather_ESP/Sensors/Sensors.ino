@@ -70,7 +70,7 @@ void loop()
   Serial.print("Pressure   : "); Serial.println(pressure);
   Serial.print("Moisture   : "); Serial.println(moisture);
   Serial.println("");
-  delay(3000);
+  delay(60000);
 
   HTTPClient http;
   http.begin(DbServer);
